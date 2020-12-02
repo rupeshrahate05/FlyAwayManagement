@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Index Page</title>
+<style>
+.center {
+	margin: auto;
+	width: 500px;
+	height: 100px;
+	padding: 50px;
+}
+</style>
+</head>
+<body style="background-image: url('flight.jpg');">
+
+
+
+	<div class="center">
+		<h1>FlyAway Management System</h1>
+		<form action="dbConnect.jsp" method="post">
+
+			Source:<input type="text" id="source" name="source" required /><br>
+			Destination:<input type="text" id="destination" name="destination"
+				required /><br /> Travel Date: <input type="date" id="travel_date"
+				name="travel_date" required /><br /> No of passengers: <input
+				type="number" id="passengers" name="passengers" required /><br />
+			<br> <input type="submit" value="Submit">
+			<a href="adminLogin.html">Admin Login</a>
+		</form>
+
+	</div>
+
+</body>
+</html>
